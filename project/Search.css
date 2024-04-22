@@ -108,20 +108,6 @@ h2{
     overflow: hidden;
 }
 
-.result .info h3 {
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-}
-
-.result .info {
-    padding: 1rem;
-}
-
-.result .info p {
-    margin-bottom: 0.5rem;
-}
-
 .result .price {
     font-weight: bold;
     font-size: 1.2rem;
@@ -141,6 +127,21 @@ h2{
     margin-left: 0.5rem;
     font-size: 0.9rem;
     color: #666;
+}
+
+.result button{
+margin-top: 30px;
+background-color: #333;
+color: #333;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+margin-bottom: 30px;
+}
+
+.result button a{
+text-decoration: none;
+color: #fff;
 }
 
 /* Footer Styles */
